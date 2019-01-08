@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
 
+# VS Files
+.vs
+CMakeSettings.json
+
 # Compiled Object files
 *.slo
 *.lo
