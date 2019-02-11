@@ -19,10 +19,10 @@ This project uses [CMake][6] and [SFML 2.5][2].
     ```
     mkdir bin
     cd bin
-    cmake -G "Your Generator" -DSFML_ROOT="PATH_TO_SFML/lib/cmake/SFML" ../BlackCircle
+    cmake -G "Your Generator" -DSFML_DIR="PATH_TO_SFML/lib/cmake/SFML" ../BlackCircle
     ```
 
-    Notice the `SFML_ROOT` parameter which must be set here. You could also edit the code locally and set the `SFML_ROOT` in the [CMake file][7] before `find_package` is being called.
+    Notice the `SFML_DIR` parameter which must be set here. You could also edit the code locally and set the `SFML_DIR` in the [CMake file][7] before `find_package` is being called.
 
 3. Build the files
 
