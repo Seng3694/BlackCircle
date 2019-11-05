@@ -1,4 +1,4 @@
-# BlackCirlce #
+# BlackCircle #
 
 Small visually stimulating project I've created to mess around with [ImGui][1] and [SFML][2]. Also uses [ImGui-SFML][3].
 
